@@ -22,7 +22,7 @@ g8 file://../scala-workbench.g8
 
 ----------------------------------------------------------------------------------------------------------
 
-Written in <2017> by <scalavision>
+Written in 2017 by scalavision
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
 and neighboring rights to this template to the public domain worldwide.
