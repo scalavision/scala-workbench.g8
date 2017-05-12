@@ -24,7 +24,7 @@ Simple project setup for easy access to scala workbench for prototyping, i.e. wi
 * better-files
 * scalacheck
 
-It uses g8 maven stable to download the most recent releases of these libraries.
+It uses `g8 maven stable` to download the most recent releases of these libraries.
 
 To test this template out:
 
