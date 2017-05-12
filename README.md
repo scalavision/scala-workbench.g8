@@ -1,6 +1,6 @@
 # scala-workbench.g8
 
-* [WIP] - The template works, but the ordering of template input is somewhat funny, also the package property is not in actual use
+* [WIP] - Still some bugs, but the ordering of template input is somewhat funny, the maven(..deps) macro doesn't seem to work for downloading the latest dependency versioning
 
 Simple project setup for easy access to scala workbench for prototyping, i.e. with following libraries:
 
