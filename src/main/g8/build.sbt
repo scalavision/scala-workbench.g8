@@ -3,7 +3,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "$organization$",
-      scalaVersion := "2.12.2",
+      scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
          "org.specs2"           %% "specs2-core"        % "$scalaspecversion$"
         ,"com.lihaoyi"          %% "sourcecode"         % "$sourcode_version$"
