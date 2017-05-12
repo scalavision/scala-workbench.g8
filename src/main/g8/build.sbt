@@ -13,6 +13,7 @@ lazy val root = (project in file(".")).
         ,"co.fs2"               %% "fs2-core"           % "$fs2_core_version$"
         ,"co.fs2"               %% "fs2-io"             % "$fs2_io_version$"
         ,"com.github.pathikrit" %% "better-files"       % "$better_files_version$"
+        ,"org.scalacheck"       %% "scalacheck"         % "$scalacheck_version$"
       )
     )),
     name := "$name$"
