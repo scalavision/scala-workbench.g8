@@ -29,7 +29,7 @@ It uses g8 maven stable to download the most recent releases of these libraries.
 To test this template out:
 
 ```bash
-sbt new scalavision/scala-workbench.g8
+g8 scalavision/scala-workbench.g8
 ```
 
 To clone this repo and test it out locally:
