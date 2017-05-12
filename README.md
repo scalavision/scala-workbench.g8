@@ -2,7 +2,16 @@
 
 * [WIP] - The template works, but the ordering of template input is somewhat funny, also the package property is not in actual use
 
-Simple project setup for easy access to scala workbench for prototyping.
+Simple project setup for easy access to scala workbench for prototyping, i.e. with following libraries:
+
+* Specs2 
+* sourcecode 
+* pprint
+* fastparse
+* cats
+* fs-core
+* fs-io
+* better-files
 
 To test this template out:
 
