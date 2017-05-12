@@ -1,6 +1,16 @@
 # scala-workbench.g8
 
-* [WIP] - Still some bugs, but the ordering of template input is somewhat funny, the maven(..deps) macro doesn't seem to work for downloading the latest dependency versioning
+# [WIP]
+
+It works using g8 command:
+
+```
+g8 scalavision/scalav-workbench.g8
+```
+
+But not using sbt new (at least not on my machine)
+
+# Description
 
 Simple project setup for easy access to scala workbench for prototyping, i.e. with following libraries:
 
@@ -12,6 +22,9 @@ Simple project setup for easy access to scala workbench for prototyping, i.e. wi
 * fs-core
 * fs-io
 * better-files
+* scalacheck
+
+It uses g8 maven stable to download the most recent releases of these libraries.
 
 To test this template out:
 
