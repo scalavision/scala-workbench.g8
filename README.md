@@ -32,6 +32,12 @@ To test this template out:
 g8 scalavision/scala-workbench.g8
 ```
 
+alternatively
+
+```bash
+g8 https://github.com/scalavision/scala-workbench.g8.git
+```
+
 To clone this repo and test it out locally:
 
 ```bash
