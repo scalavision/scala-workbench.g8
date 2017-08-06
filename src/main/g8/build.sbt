@@ -6,6 +6,7 @@ lazy val root = (project in file(".")).
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
          "org.specs2"           %% "specs2-core"        % "$scalaspecversion$"
+        ,"ch.qos.logback"          %  "logback-classic" % "1.2.3"
         ,"com.lihaoyi"          %% "sourcecode"         % "$sourcode_version$"
         ,"com.lihaoyi"          %% "pprint"             % "$pprint_version$"
         ,"com.lihaoyi"          %% "fastparse"          % "$fastparse_version$"
